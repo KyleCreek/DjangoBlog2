@@ -54,3 +54,4 @@ def add_post(request):
         context = {'form' : form}
         return render(request, 'blogging/add_post.html', context)
 
+# RSS Feed Example
